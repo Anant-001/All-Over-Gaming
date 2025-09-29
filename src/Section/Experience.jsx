@@ -22,7 +22,7 @@ const Experience = () => {
     const images = [
         { id: 1, img: "/image/Arcade Fun with Friends.png" },
         { id: 2, img: "/image/Gaming Night.png" },
-        { id: 3, img: "/image/Gamer in Neon-Lit.png" },
+        { id: 3, img: "/image/Gamer in Neon-lit.png" },
         { id: 4, img: "/image/Gamer's Haven.png" },
         { id: 5, img: "/image/ChatGPT Image.png" },
     ];

@@ -5,7 +5,7 @@ import { gsap } from 'gsap';
 
 export default function GamingChair() {
     const ref = useRef();
-    const { scene } = useGLTF('/Modal/gaming_chair_kiiro.glb');
+    const { scene } = useGLTF('/Modal/gaming_chair.glb');
 
     useEffect(() => {
         // Add floating + spin animation
@@ -26,6 +26,6 @@ export default function GamingChair() {
     }, []);
 
     return (
-        <primitive object={scene} ref={ref} scale={0.4} position={[0, -1, 0]}  />
+        <primitive object={scene} ref={ref} scale={2.5} position={[0, -1, 0]}  />
     );
 }

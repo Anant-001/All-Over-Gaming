@@ -35,11 +35,6 @@ const BookingSection = () => {
                         </h2>
                         <button
                             onClick={() => setShowModal(true)}
-                            /*  onClick={() => navigate(<BookingSlot />)}
-                           /* onClick={() => {
-                                  // Add your booking slot logic here
-                                  console.log("Booking slot clicked");
-                              }}*/
                             className="px-8 py-3 text-lg font-semibold rounded-lg bg-purple-600 text-white
                                  transition-all duration-300 ease-in-out
                                  hover:bg-purple-700 hover:shadow-lg hover:shadow-purple-500/50
